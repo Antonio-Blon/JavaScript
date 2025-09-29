@@ -17,4 +17,22 @@ btnCal.addEventListener("click",function(){
     //Pop Up - Alert, Confirm
     alert("Suma es: "+suma)
     confirm("Confirmar para el siguiente paso");
+    if(a ==true){
+        alert("LE DISTE ACEPTAR")
+    }else{
+        alert("LE DISTE CANCELAR")
+    }
+    //Prompt
+    let name = prompt("Ingresa tu nombre: ")
+
 })
+
+let admin = prompt("Usuario")
+let pass = prompt("Contraseña")
+if (admin == "admin" && pass == "123"){
+    console.log("¡Bienvenido!")
+    alert("¡Bienvenido! Datos Correctos")
+}else{
+    alert("Datos Incorrectos")
+    
+}
